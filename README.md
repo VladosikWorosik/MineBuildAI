@@ -86,7 +86,7 @@ python -m minebuildai build-coord-vocab \
 
 ## Training
 
-Recommended coordinate model training command for Google Colab CUDA:
+Recommended coordinate model training command for CUDA:
 
 ```bash
 python -m minebuildai train-coord \
@@ -145,16 +145,10 @@ python -m minebuildai generate-coord \
   --top-k 50
 ```
 
-For more stable outputs:
+Other Variant:
 
 ```bash
 --temperature 0.7 --top-k 20
-```
-
-For more diverse outputs:
-
-```bash
---temperature 1.0 --top-k 50
 ```
 
 ## Output
