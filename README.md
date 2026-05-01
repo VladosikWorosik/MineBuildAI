@@ -145,7 +145,7 @@ python -m minebuildai generate-coord \
   --top-k 50
 ```
 
-Other Variant:
+Another Option:
 
 ```bash
 --temperature 0.7 --top-k 20
